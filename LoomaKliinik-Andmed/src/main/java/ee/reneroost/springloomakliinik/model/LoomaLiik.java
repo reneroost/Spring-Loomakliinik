@@ -1,6 +1,6 @@
 package ee.reneroost.springloomakliinik.model;
 
-public class LoomaLiik {
+public class LoomaLiik extends BaasOlem  {
 
     private String nimi;
 

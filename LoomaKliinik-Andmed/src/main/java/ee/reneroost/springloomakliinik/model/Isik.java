@@ -1,6 +1,6 @@
 package ee.reneroost.springloomakliinik.model;
 
-public class Isik {
+public class Isik extends BaasOlem {
 
     private String eesNimi;
     private String pereNimi;

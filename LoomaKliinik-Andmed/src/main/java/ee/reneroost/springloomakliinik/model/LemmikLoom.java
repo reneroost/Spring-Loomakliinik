@@ -2,7 +2,7 @@ package ee.reneroost.springloomakliinik.model;
 
 import java.time.LocalDate;
 
-public class LemmikLoom {
+public class LemmikLoom extends BaasOlem {
 
     private LoomaLiik loomaLiik;
     private Omanik omanik;
