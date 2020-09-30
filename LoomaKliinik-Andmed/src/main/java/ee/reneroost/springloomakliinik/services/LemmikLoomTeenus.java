@@ -4,11 +4,6 @@ import ee.reneroost.springloomakliinik.model.LemmikLoom;
 
 import java.util.Set;
 
-public interface LemmikLoomTeenus {
+public interface LemmikLoomTeenus extends CrudTeenus<LemmikLoom, Long> {
 
-    LemmikLoom leiaIdPohjal(Long id);
-
-    LemmikLoom salvesta(LemmikLoom omanik);
-
-    Set<LemmikLoom> leiaKoik();
 }

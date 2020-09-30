@@ -1,16 +1,11 @@
 package ee.reneroost.springloomakliinik.services;
 
 import ee.reneroost.springloomakliinik.model.Omanik;
+import org.springframework.data.repository.CrudRepository;
 
 import java.util.Set;
 
-public interface OmanikTeenus {
+public interface OmanikTeenus extends CrudRepository<Omanik, Long> {
 
     Omanik leiaPereNimePohjal(String pereNimi);
-
-    Omanik leiaIdPohjal(Long id);
-
-    Omanik salvesta(Omanik omanik);
-
-    Set<Omanik> leiaKoik();
 }
